@@ -20,6 +20,12 @@ After this, activate the environment and install the the desired packages using 
 pip install <package name>
 ```
 
+Once finished, a text file was created which contains the required packages to run the keras model that is presented in this project. The text file is named 'requirements.txt' and was created using the following line of code in the command prompt:
+
+```
+pip list > requirements.txt
+```
+
 ### Manual version of the game
 
 A manual version of the game was created which does not require the use of machine learning to gather an input from the player. Instead, the player types in their desired action when the file is run and they against the computer, who's decision is made at random before the player's. The code for this is found in the file named,
