@@ -8,7 +8,17 @@ https://teachablemachine.withgoogle.com/
 
 The classes defined which the machine was trainned to distinguish were the 3 different states of the game itself ('Rock', 'Paper' and 'Scissors') and the 'Nothing' state. The model used images of me gesturing in the appripriate manner corresponding to whcih class was being defined. For instance, a fist was held up to the camera when defining the 'Rock' class. 100 images of each state to allow for a more accurate prediction from the model.
 
-We begin be creating the conda environment so that the machine lerning model we have can run. Within this environment, we imported the packages; opencv-python, tensorflow, and ipykernel. We achieved this by first installing 'pip', then using this to install the other packages. 
+We begin be creating the conda environment so that the machine lerning model we have can run. Within this environment, we imported the packages; opencv-python, tensorflow, and ipykernel. We achieved this by first installing 'pip' in the command prompt, then using this to install the other packages. This environment is named "rps_env" and was created with the following lines of code in the command prompt: 
+
+```
+conda create -n rps_env
+```
+
+After this, activate the environment and install the the desired packages using pip by:
+
+```
+pip install <package name>
+```
 
 ### Manual version of the game
 
